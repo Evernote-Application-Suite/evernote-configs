@@ -56,10 +56,10 @@ reporting:
 
 app:
   staging:
-    directory: /data/evernotebatch/staging
-    download.directory: /data/evernotebatch/staging/downloads
-#    directory: D:/data/evernotebatch/staging
-#    download.directory: D:/data/evernotebatch/staging/downloads
+    #directory: /data/evernotebatch/staging
+    #download.directory: /data/evernotebatch/downloads
+    directory: D:/data/evernotebatch/staging
+    download.directory: D:/data/evernotebatch/downloads
   target:
     ftp:
       hostname: 192.168.1.103
