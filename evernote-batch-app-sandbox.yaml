@@ -68,5 +68,13 @@ app:
       download.directory: EvernoteDownload
       username: sudhir
       password: ENC(pEjNNsT9BWytWIVyxleEZF4tSuF1MCPD)
+  operations:
+    populatedatafromevernote: true
+    startfileloadftp: true
+    evernotedeletetask: true
+    evernotedownloadtask: true
+    evernoteinformation: true
+    startftpdownloadtask: true
+    evernoteuploadtask: true
   default:
     tags: evernote-batch-app;uploaded
