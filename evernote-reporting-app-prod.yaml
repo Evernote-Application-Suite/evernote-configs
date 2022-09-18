@@ -37,6 +37,9 @@ spring:
     show-sql: true
   application:
     name: evernote-reporting-app
+  data:
+    cassandra:
+      schema-action: CREATE_IF_NOT_EXISTS
 jasypt:
   encryptor:
     password: ${ENCRYPTION_CODE}
