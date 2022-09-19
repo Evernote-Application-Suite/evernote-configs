@@ -1,6 +1,6 @@
 astra:
   api:
-    application-token: AstraCS:XnNFcYKTZrtzNQdgmkwHxvNJ:7434fa096f370d9cb946154d496de2f1474443e35468699d1025e3435c32c8d7
+    application-token: ENC(P+JrObTL/hOkSeMhqrsfGRlXHmnnwr534+JJyoSgbOhBZ9IzBhorBXKK1u3q9rHc7nuIXTxOGsCj4zG9VUFFLSRmTt6yZ3Z1Uq6MCZYPfJVVVeEWWdErvs8m8MuSXWRIAQjTPjJjg3bWtFi3vhS4XA==)
     database-id: f4b9a818-e53a-40f4-aef1-c024f644948d
     database-region: asia-south1
     grpc:
