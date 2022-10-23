@@ -55,26 +55,3 @@ reporting:
     sendfrom: bsudhir6@gmail.com
 
 app:
-  staging:
-    directory: /data/evernotebatch/staging
-    download.directory: /data/evernotebatch/staging/downloads
-#    directory: D:/data/evernotebatch/staging
-#    download.directory: D:/data/evernotebatch/staging/downloads
-  target:
-    ftp:
-      hostname: 192.168.1.103
-      port: 21
-      directory: EvernoteUpload
-      download.directory: EvernoteDownload
-      username: sudhir
-      password: ENC(pEjNNsT9BWytWIVyxleEZF4tSuF1MCPD)
-  operations:
-    populatedatafromevernote: true
-    startfileloadftp: true
-    evernotedeletetask: true
-    evernotedownloadtask: true
-    evernoteinformation: true
-    startftpdownloadtask: true
-    evernoteuploadtask: true
-  default:
-    tags: evernote-batch-app;uploaded
