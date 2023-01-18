@@ -76,7 +76,6 @@ app:
     evernoteinformation: true
     startftpdownloadtask: true
     evernoteuploadtask: true
-    evernoteuploadtask: true
-    app.operations.evernotedownloadnotetask: true
+    evernotedownloadnotetask: true
   default:
     tags: evernote-batch-app;uploaded
