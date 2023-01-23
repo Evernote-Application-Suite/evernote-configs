@@ -14,7 +14,8 @@ astra:
       # path: /tmp
     driver-config:
       basic:
-        session-keyspace: master
+        # session-keyspace: master
+        session-keyspace: master-backup-data
         request:
           timeout: 30s
 spring:
